@@ -4,13 +4,9 @@
     String password = request.getParameter("password");
 
     if(request.getMethod().equalsIgnoreCase("post")) {
-        System.out.println(username);
-        System.out.println(password);
         if(username.equals("admin") && password.equals("password")) {
-            System.out.println("Going to profile");
             response.sendRedirect("/profile.jsp");
         } else {
-            System.out.println("Going to login");
             response.sendRedirect("/login.jsp");
         }
     }
