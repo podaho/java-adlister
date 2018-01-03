@@ -32,6 +32,12 @@
                     <label for="password">Password</label>
                 </div>
             </div>
+            <div class="row">
+                <div class="input-field col s4 offset-s4">
+                    <input name="email" id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
             <br>
             <div class="row">
                 <button class="col s4 offset-s4 btn waves-effect waves-light" type="submit" name="action">Submit
