@@ -4,6 +4,7 @@ public class DaoFactory {
     private static Ads adsDao;
     private static Users usersDao;
     private static Config config = new Config();
+    public static int hashRounds = 12;
 
     public static Ads getAdsDao() {
         if (adsDao == null) {
